@@ -59,14 +59,18 @@
 
 #content-img {
     display: table-cell;
-    padding: 100px;
+    padding: 50px;
+    padding-top: 80px;
+    vertical-align: top;
 }
 
 #content-text {
     display: table-cell;
     width: 600px;
-    padding-top: 100px;
+    padding-top: 60px;
+    font-size: 13px;
     vertical-align: top;
+    color: #808080;
 }
 
 
