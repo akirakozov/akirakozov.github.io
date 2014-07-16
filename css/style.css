@@ -29,17 +29,17 @@
     text-align: center;
 }
 
-#menu li a:link {
+a:link {
     color:black;
     text-decoration: none;
 }
 
-#menu li a:visited {
+a:visited {
     color: black;
     text-decoration: none;
 }
 
-#menu li a:hover {
+a:hover {
     color: gray;
     text-decoration: none;
 }
