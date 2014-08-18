@@ -1,0 +1,23 @@
+#bg { 
+    background: url(../images/coworking2.jpg) 50% 0 fixed no-repeat; 
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.center {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.text {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    
+}
