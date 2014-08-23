@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GhotaPro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GhotaPro'), url('../fonts/GothaProReg.otf') format('opentype');
+}
+
 #header {
     background-color: #B5D9EB;
     top: 0;
@@ -104,6 +111,7 @@ a:hover {
     font-size: 15px;
     vertical-align: top;
     color: #808080;
+    font-family: "GhotaPro", serif;
 }
 
 
