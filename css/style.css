@@ -114,4 +114,15 @@ a:hover {
     font-family: "GhotaPro", serif;
 }
 
-
+#content-table {
+    display: table-cell;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    vertical-align: top;
+    color: #808080;
+    font-family: "GhotaPro", serif;
+}
