@@ -1,8 +1,15 @@
 @font-face {
-    font-family: 'GhotaPro';
+    font-family: 'GhotaProReg';
     font-style: normal;
     font-weight: normal;
-    src: local('GhotaPro'), url('../fonts/GothaProReg.otf') format('opentype');
+    src: local('GhotaProReg'), url('../fonts/GothaProReg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GhotaProBol';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GhotaProBol'), url('../fonts/GothaProBol.otf') format('opentype');
 }
 
 #header {
@@ -104,6 +111,13 @@ a:hover {
     vertical-align: top;
 }
 
+
+h1 {
+    font-size: 18px;
+    color: #808080;
+    font-family: "GhotaProBol", serif;
+}
+
 #content-text {
     display: table-cell;
     width: 600px;
@@ -111,7 +125,7 @@ a:hover {
     font-size: 15px;
     vertical-align: top;
     color: #808080;
-    font-family: "GhotaPro", serif;
+    font-family: "GhotaProReg", serif;
 }
 
 #content-table {
@@ -124,5 +138,5 @@ a:hover {
     font-size: 15px;
     vertical-align: top;
     color: #808080;
-    font-family: "GhotaPro", serif;
+    font-family: "GhotaProReg", serif;
 }
