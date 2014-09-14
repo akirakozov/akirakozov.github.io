@@ -37,6 +37,8 @@
     width: 80%;
     display: table;
     margin: 0 auto;
+    font-size: 18px;
+    font-family: "GhotaProBol", serif;
 }
 
 #menu li {
