@@ -78,7 +78,7 @@ a:hover {
 }
 
 #bg-3 { 
-    background: url(../images/bg-2.jpg) 50% 0 fixed no-repeat; 
+    background: url(../images/bg-print2.jpg) 50% 0 fixed no-repeat; 
     margin: 0 auto;
     height: 600px;  
     width: 100%;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #bg-5 { 
-    background: url(../images/bg-4.jpg) 50% 0 fixed no-repeat; 
+    background: url(../images/bg-event.jpg) 50% 0 fixed no-repeat; 
     margin: 0 auto;
     height: 600px;  
     width: 100%;
