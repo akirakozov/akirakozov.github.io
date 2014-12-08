@@ -1,0 +1,22 @@
+<html>
+<script>
+    var httpReq = new XMLHttpRequest();
+    //var url = "http://yandex.ru";
+    //var url = "https://2.downloader.disk.yandex.ru/preview/d024c18dd5297ff017a48bd47c979f49/mpfs/8_Q17UGPGgP5VGx8FV5iVHshwueFtO4fSUqnazWmVHhbkOo5OQ4Iy6BSTb9dJjGVq_J6bpmRyOJonT3VoXnDag%3D%3D?uid=0&filename=dvpng&disposition=inline&hash=&limit=0&content_type=image%2Fpng&size=XL&crop=0";
+    //var url = "https://1.downloader.disk.yandex.ru/preview/de0d728bc3dd8dc0d8a28e5666e709fc/mpfs/S0-ckxhjwEc7drKCX_T_uGLnU1xJLAgzbyxBZuJX9jWEvWwN05G3jKDY7QY1VsnMjpPoGfq8hmHcW90IiWZmUQ%3D%3D?uid=1260145&filename=dv2png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&crop=1&size=145x145";
+    var url = "https://akirakozov2.dev.yandex.net/preview/91226df4875295278d97758b03ca1acb/mpfs/MTAwMDAwNS55YWRpc2s6MTczMzM3Njg4LjM5ODMyOTYzODQyMDM1MDg3MjUzMzI4NzI3MDkyNjU=?uid=0&filename=privet.txt&content_type=text/plain&disposition=inline&hash=&limit=0&size=S&crop=0&logo=1";
+    function call() {
+        if (httpReq) {
+            alert("Hello");
+            httpReq.open('GET', url, false);
+            //httpReq.setRequestHeader('X-PINGOTHER', 'pingpong');
+            httpReq.setRequestHeader('Authorization', 'OAuth: asdf')
+            httpReq.send();
+            alert("Hello2")
+        }
+    }
+</script>
+<body>
+     <button onclick="call()">Click me</button>
+</body>
+</html>
